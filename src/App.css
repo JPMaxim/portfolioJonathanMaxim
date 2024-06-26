@@ -1,38 +1,32 @@
-.App {
-  text-align: center;
+#tabTitle {
+    writing-mode: vertical-rl;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#darkMagenta {
+    /* rgb(211, 32, 214) */
+    background-image: linear-gradient(to right, rgb(137, 19, 138) , rgb(137, 19, 138) 45% , rgb(137, 59, 138) 90%); 
+    background-color: rgb(137, 19, 138);
 }
+#skyMagenta {
+    background-image: linear-gradient(to right, rgb(206, 113, 175) , rgb(206, 113, 175) 45%, rgb(206, 153, 175) 90%);
+    background-color: rgb(206, 113, 175);
+}
+#teal {
+    background-image: linear-gradient(to right, rgb(1, 128, 128) , rgb(1, 128, 128) 45% , rgb(71, 128, 128) 90%);
+    background-color: rgb(1, 128, 128);
+} 
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media only screen and (max-width: 1023px) {
+    #tabTitle {
+        writing-mode: horizontal-tb;
+    }
+    #darkMagenta {
+        /* rgb(211, 32, 214) */
+        background-image: linear-gradient(to bottom, rgb(137, 19, 138) , rgb(137, 19, 138) 45% , rgb(137, 59, 138) 90%); 
+    }
+    #skyMagenta {
+        background-image: linear-gradient(to bottom, rgb(206, 113, 175) , rgb(206, 113, 175) 45%, rgb(206, 153, 175) 90%);
+    }
+    #teal {
+        background-image: linear-gradient(to bottom, rgb(1, 128, 128) , rgb(1, 128, 128) 45% , rgb(71, 128, 128) 90%);
+    } 
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

@@ -1,0 +1,31 @@
+mobile nav bar collapse: https://www.w3schools.com/howto/howto_js_navbar_shrink_scroll.asp
+book spine inspiration: https://www.pixeden.com/psd-mock-up-templates/psd-hardback-book-spine-mockup
+
+favicon J attribution: <a href="https://www.flaticon.com/free-icons/letter-j" title="letter j icons">Letter j icons created by popo2021 - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/floral-design" title="floral design icons">Floral design icons created by Freepik - Flaticon</a><a href="https://www.flaticon.com/free-icons/mandala" title="mandala icons">Mandala icons created by IconMarketPK - Flaticon</a><a href="https://www.flaticon.com/free-icons/floral" title="floral icons">Floral icons created by Freepik - Flaticon</a><a href="https://www.flaticon.com/free-icons/mandala" title="mandala icons">Mandala icons created by IconMarketPK - Flaticon</a>
+
+JOURNAL NOTES
+====================================================
+REACT-ROUTER-DOM
+--------------
+My Portfolio React App uses React Router to navigate between pages. The great thing about using React router instead of the standard html method, is that instead of sending server requests and receiving a new html page to display in the browser every time you click a link, all the routing is done within the browser. So only one request is made to the server when the page is first loaded and every other link is caught and handled by React within the browser providing a faster user experience.
+	In the App.js Component, the Routes tag contains all the Routes that will exist on the app. Each route tag has a path attribute and an element attribute. So when the given path is open in the browser, react will display the component given by the element attribute. Another great feature of React router is the entire page doesn't refresh when the Route is changed. Only the content nested within the Routes tag updates and whatever other content you choose to put outside of the Routes tag, such as a navigation component, will remain unchanged.
+	Confession time. I dove in and wrote a bunch of code for the app without first implementing the router. So what I did was have one single page for the whole app, and switch between three different content components by changing their CSS using React State. One of the three components would have display: flex; at any one time while the others would have display: none;. This achieved the same effect as using Routes but I decided to change this to the more established method to avoid problems later down the line. 
+	Now using Router The Books Navigation Section is situation outside of the Routes so that it doesn't refresh when the route changes. The three pages are navigated by the router.
+
+FILE ORGANISATION
+--------------
+https://profy.dev/article/react-folder-structure
+
+CONTAINER LAYOUTS
+--------------
+Before I dove into the code I drew some sketches of what I wanted the site to look like on different devices. This helped me visualize what components I needed where in the HTML, as well as what css attributes I needed for each div. When I then dove into the code I felt it went a lot more smoothly. There was still some faffing around in the inspect element trying to alter things to be positioned where, and behave how I wanted them to, altering the tailwind css where it didn't work as I had planned originally. Overall though a plan like this helps me avoid getting lost in code and losing sight of what I'm trying to achieve because I've got tunnel visioned onto one part of it. Or doing things multiple times because I've changed my mind about styling choices after seeing it.
+DP - Not supported in CSS :(
+--------------
+When I was planning the layout of the containers and components for different screen sizes, I came across a measurement called 'dp' that I had not seen before after I searched what an average height was for a nav bar on mobile. So after looking it up I found that it's a virtual pixel unit that you should use when defining UI layout. It expresses dimensions in a density-independant way. The unit 'px' assumes a 'medium density screen when screens apparently range from low to medium to high all the way to xxx-high density. If you've used 'dp' however, at runtime, the system automatically scales the dimension in account of the change in pixel density. My understanding of this is that if you have an xxx-high pixel density monitor than the height of a div won't be massively shrunk down in size because the number of pixels it has been designated to span across take up much less space on the xxx-high monitor compared with the standard medium monitor. This felt like a great find for making my apps more responsively designed and I'll be implementing 'dp' more, for example in defining the sizes of containers.
+
+Mobile First
+--------------
+When designing the Tab components, I went back into the habit of building the component for the laptop device width first, thinking I could adjust it for mobile later. I this is intuitive since I'm building it on the laptop and therefore looking at the component as I build it on a laptop width. 
+Next time I'd make the change of using the inspect element to display the component at a mobile device width as I build.
+Well what's the problem with doing laptop first? Well in tailwind the css attributes that I add without any prefix correspond to all widths less than any that I designate using a prefix. So for this app, base attributes correspond to mobile and tablet, then attributes with ltp: prefix correspond to laptop widths, then 'wide:', then '4k:'. If I did mobile first I'd then have to add new attributes to tailor it to the new device width. Having done laptop first I now need to find the attributes that should really be prefixed, and then write new attributes for mobile, **a taxing and unnecessary extra step!**
