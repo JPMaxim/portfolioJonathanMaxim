@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/github.io/portfolioJonathanMaxim/static/css/main.c917dcb0.css",
+    "main.js": "/github.io/portfolioJonathanMaxim/static/js/main.a0d977f1.js",
+    "static/js/453.acca0757.chunk.js": "/github.io/portfolioJonathanMaxim/static/js/453.acca0757.chunk.js",
+    "static/media/bootcampJournal.png": "/github.io/portfolioJonathanMaxim/static/media/bootcampJournal.bbeb3df7b5f2a31cd681.png",
+    "static/media/catanGenerator.png": "/github.io/portfolioJonathanMaxim/static/media/catanGenerator.626f1e25b3a8e76bdb57.png",
+    "static/media/restaurant.png": "/github.io/portfolioJonathanMaxim/static/media/restaurant.75820f27f0f28553f85e.png",
+    "static/media/climbing.png": "/github.io/portfolioJonathanMaxim/static/media/climbing.dce4ded04082c3fea64e.png",
+    "static/media/catanGeneratorTwo.png": "/github.io/portfolioJonathanMaxim/static/media/catanGeneratorTwo.21d004d3546c1aae9f7a.png",
+    "static/media/pokemon.png": "/github.io/portfolioJonathanMaxim/static/media/pokemon.e89e63de506936b4e005.png",
+    "static/media/ornamental-symmetrical-design.png": "/github.io/portfolioJonathanMaxim/static/media/ornamental-symmetrical-design.be8e86346b955fb9889a.png",
+    "index.html": "/github.io/portfolioJonathanMaxim/index.html",
+    "main.c917dcb0.css.map": "/github.io/portfolioJonathanMaxim/static/css/main.c917dcb0.css.map",
+    "main.a0d977f1.js.map": "/github.io/portfolioJonathanMaxim/static/js/main.a0d977f1.js.map",
+    "453.acca0757.chunk.js.map": "/github.io/portfolioJonathanMaxim/static/js/453.acca0757.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c917dcb0.css",
+    "static/js/main.a0d977f1.js"
+  ]
+}
