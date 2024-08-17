@@ -65,7 +65,7 @@ export const Nav = () => {
     }
     return (
         <div className='flex flex-col relative h-24vh w-100% 
-            ltp:fixed ltp:flex-row ltp:h-100vh ltp:left-0 ltp:border-r-4
+            ltp:fixed ltp:flex-row ltp:h-100vh ltp:left-0 
             ltp:w-39% wide:w-30rem 4k:w-39rem'> 
 
             <Book

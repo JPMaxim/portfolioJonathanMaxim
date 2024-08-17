@@ -1,39 +1,37 @@
+import {JournalEntry} from '../cards/JournalEntry'
+import { ChessStats01 } from '../text/journalCaptions/august24/ChessStats01'
+import { ChessStats02 } from '../text/journalCaptions/august24/ChessStats02'
+import { ChessStats03 } from '../text/journalCaptions/august24/ChessStats03'
+
 export function Journal({ display }) {
     return (
-        <div className={`w-100% ${display} 
-        wide:pl-39rem`}>
-            <div className="w-full px-8 flex flex-col items-center justify-center
+        <div className={`w-100% ${display} bg-lighterMagenta min-h-76vh
+        ltp:min-h-100vh
+        wide:pl-30rem
+        4k:pl-39rem`}>
+            <div className="w-full px-8 flex flex-col items-center justify-evenly
             ltp:px-16
             wide:px-32
             4k:px-80">
-                <h1>Journal Content</h1>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus cursus fermentum lacinia. Aliquam molestie at turpis eu porttitor. Quisque finibus facilisis metus et feugiat. In dapibus facilisis est, non ornare libero pretium in. Quisque maximus urna sit amet dui ultrices, ac porta felis feugiat. Donec feugiat libero mi, eu sagittis enim sagittis et. Morbi pellentesque sapien a purus mollis, eget iaculis urna cursus. Donec leo ligula, dignissim tristique augue consectetur, congue sodales velit. Nunc ac aliquet libero, et placerat nunc. Praesent auctor mollis ante, quis ornare ante accumsan at.
-
-                    <br></br>Donec ac venenatis nibh. Integer sed neque maximus, ullamcorper ex et, ultrices diam. Vestibulum facilisis est tincidunt imperdiet gravida. Curabitur vel lorem vel tortor accumsan consectetur id sed elit. Mauris quis gravida leo. Proin velit leo, fermentum in facilisis non, bibendum ut turpis. Phasellus eleifend sapien augue, nec pellentesque nibh hendrerit vel. Nam ornare, urna sit amet aliquam suscipit, diam velit placerat mauris, sit amet tincidunt lacus nisl a lectus. Duis pellentesque fringilla diam. Quisque ac rhoncus magna, nec lacinia nunc. Maecenas eget dolor eu nisi porttitor scelerisque imperdiet in lectus. Pellentesque in enim id massa semper egestas in sit amet tellus. Etiam a tellus mollis, posuere ex imperdiet, cursus lectus.
-
-                    <br></br>Aliquam non sem nec neque dictum ultrices. Praesent luctus mauris massa, vel pretium ligula elementum non. Donec egestas euismod sollicitudin. Nullam interdum hendrerit purus, in volutpat lorem ullamcorper in. Suspendisse et finibus felis. Aliquam non ex vel ante suscipit suscipit eget vel arcu. Aenean interdum purus nec nibh consectetur pulvinar. Nullam tempus vehicula neque accumsan efficitur. Nullam tempor gravida libero ut semper.
-
-                    <br></br>Etiam tristique ligula a velit mattis luctus sed vitae mi. Nulla luctus orci dolor, ut euismod magna malesuada eget. Maecenas nec odio vitae nulla lobortis viverra. Donec auctor neque eget enim facilisis vehicula. Nunc fringilla molestie mauris. Suspendisse efficitur elit a massa mollis sodales. Quisque tincidunt lorem imperdiet orci dapibus egestas. Mauris vitae gravida augue. Nulla sit amet erat rhoncus, tincidunt urna ut, ornare massa. Ut in molestie arcu. Vivamus at vulputate lorem. In scelerisque sodales ligula, sed malesuada neque ullamcorper euismod.
-
-                    <br></br>Nulla interdum in diam eu venenatis. Ut venenatis, quam eget vestibulum efficitur, eros enim cursus dolor, eget mattis turpis mauris vel est. Quisque vel cursus turpis. Cras nec ultricies nulla. Mauris congue mi et nisi iaculis, in feugiat diam tincidunt. Maecenas id nunc convallis, facilisis tortor non, blandit quam. Donec finibus arcu at efficitur feugiat. Aenean dictum dui eleifend erat pellentesque, at scelerisque tellus dictum. Suspendisse nisl ipsum, semper sed tincidunt facilisis, facilisis eget nulla.
-
-                    <br></br>Sed eleifend pulvinar diam id lacinia. Phasellus tempus faucibus diam id posuere. Donec varius lacus purus. Nulla mollis semper purus ac maximus. Fusce finibus bibendum ex, a varius velit tristique at. Vivamus sed vehicula velit. Aenean elementum velit elementum enim vehicula, eleifend pellentesque enim consequat. Donec nulla lacus, rutrum et ipsum id, vehicula iaculis quam. Phasellus convallis diam a dictum elementum. Fusce scelerisque fringilla lacus, vel eleifend mi mattis et. Maecenas ac tellus nisi.
-
-                    <br></br>Suspendisse bibendum tincidunt bibendum. Pellentesque eleifend ex ex, ut tincidunt enim consectetur ac. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut mi lorem, tincidunt venenatis aliquam mollis, feugiat non lacus. Proin sed pharetra purus. Ut sapien lorem, feugiat at elit eget, iaculis tincidunt sapien. Ut lacinia tincidunt molestie. Phasellus molestie pretium lorem non vehicula. Donec dignissim pellentesque felis, non finibus elit volutpat sit amet. Nam sollicitudin, mi quis luctus semper, dui est bibendum sapien, ut fringilla odio justo non nisl. Vivamus at lacus sem.
-
-                    <br></br>Ut semper sodales neque at gravida. Nullam lobortis mollis metus, a ultricies purus condimentum sit amet. Vivamus vel eleifend justo, id fringilla nisi. Etiam consectetur enim lorem, non malesuada tellus tincidunt quis. Phasellus commodo odio in arcu tincidunt, quis pharetra mauris eleifend. Phasellus hendrerit odio quam, sed elementum quam efficitur nec. Nam efficitur nisl quam, sit amet venenatis diam suscipit ut. Ut bibendum mattis erat nec bibendum. Fusce augue sem, bibendum in lectus at, efficitur porttitor massa. Donec mi mi, consectetur vitae tortor sit amet, ornare malesuada erat. Quisque libero lectus, iaculis vel ligula id, vehicula faucibus est. Duis efficitur elementum elit id sagittis. Phasellus condimentum dapibus iaculis. Vestibulum eu erat nec massa cursus cursus. In ultrices, tortor laoreet sagittis porta, enim sapien ornare leo, sed condimentum sapien arcu vitae sapien.
-
-                    <br></br>Sed molestie leo id pellentesque ultrices. Sed ullamcorper ante quis ex viverra, ac molestie arcu luctus. Quisque turpis mauris, tempor sit amet fringilla non, scelerisque eu massa. Nunc imperdiet dignissim velit ac bibendum. Cras ultrices nisi nec turpis ultricies viverra. Nulla quis blandit dui. Vestibulum malesuada, risus vitae ultrices varius, leo metus placerat arcu, a euismod nisl augue eget risus. Sed scelerisque enim sem, eu pretium erat finibus ut.
-
-                    <br></br>Donec ut semper mi. Ut convallis magna quis dolor viverra, at dignissim sem ultrices. Ut felis urna, tincidunt at rutrum ac, dapibus eget elit. Suspendisse pharetra commodo metus ut vulputate. Integer sit amet ligula nec lorem congue pharetra. Mauris diam felis, placerat eget feugiat sit amet, elementum a tortor. Fusce malesuada nec magna ut blandit. Pellentesque molestie id velit vitae hendrerit. Aenean fermentum, massa vitae luctus ornare, lacus ipsum eleifend magna, sed vestibulum neque nulla in dolor. Suspendisse dictum elementum consectetur. Aliquam quis velit dui. Aliquam id sodales libero.
-
-                    <br></br>Integer ac molestie lorem, quis cursus massa. In hac habitasse platea dictumst. Vivamus sem arcu, feugiat sed elit sed, commodo imperdiet purus. Etiam sagittis libero at dui fringilla aliquet. Vivamus vestibulum justo eleifend massa molestie, ut auctor nibh egestas. In hac habitasse platea dictumst. Fusce augue sem, pharetra ut molestie a, pharetra et risus. Mauris id justo lorem. Vivamus suscipit tincidunt sapien ut pellentesque. Phasellus venenatis rutrum odio, ac mollis neque pretium quis. Quisque ultricies mollis ornare. Donec facilisis imperdiet varius. Donec id mi in sapien tempus rhoncus a ut erat.
-
-                    <br></br>Quisque quam quam, ultricies in tincidunt rutrum, luctus tristique erat. Sed sodales dapibus nisl, ut aliquet augue consectetur sed. Aenean ut quam odio. Aenean pulvinar neque elit, sed pellentesque leo molestie eget. Vivamus porttitor ullamcorper augue in tempor. Praesent eget blandit mauris. Proin interdum massa enim, ac dignissim nulla commodo nec. Aenean tincidunt varius magna, ut dignissim risus egestas id. Cras libero lacus, consectetur vehicula nunc vel, molestie commodo dui. Aliquam aliquam, metus dapibus bibendum facilisis, nunc arcu egestas neque, eu pulvinar massa risus fermentum dolor.
-
-                    <br></br>Phasellus consequat risus id sapien luctus, vitae cursus risus venenatis. Integer ligula nulla, hendrerit ac euismod eget, tristique ac enim. Aliquam pellentesque porta urna. Integer sed nunc ut arcu commodo malesuada. Quisque sed dignissim eros. Maecenas consequat lacinia vehicula. Sed volutpat, magna non posuere sodales, tortor quam facilisis libero, id ultricies diam ipsum eget quam. Maecenas cursus tristique bibendum. Duis eu placerat urna. Integer ac imperdiet libero, sit amet vestibulum orci. Integer nec metus ac elit ullamcorper aliquet vel vel urna. Curabitur felis tellus, imperdiet et dolor eu, vestibulum tempor nulla. Mauris tempus pretium quam.
-                </p>
+                <h1 className="font-Chakra my-3rem text-5xl wide:text-6xl 4k:text-7xl">Journal</h1>
+                <JournalEntry 
+                    title='Chess Stats FullStack - Entry 01'
+                    subtitle='Design And Bulding the Backend Server'
+                    caption={<ChessStats01 />}
+                    date='August 2024'
+                />
+                <JournalEntry
+                    title='Chess Stats FullStack - Entry 02'
+                    subtitle='Making a Start on the Frontend'
+                    caption={<ChessStats02 />}
+                    date='August 2024'
+                />
+                <JournalEntry
+                    title='Chess Stats FullStack - Entry 03'
+                    subtitle='The Import Game Page'
+                    caption={<ChessStats03 />}
+                    date='August 2024'
+                />
             </div>
         </div>
     )

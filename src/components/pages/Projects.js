@@ -1,5 +1,5 @@
 import { Project } from "../cards/Project"
-import { captions } from "../../text/projectCaptions"
+import { captions } from "../../text/projects/projectCaptions"
 import catanGenerator from '../../images/catanGenerator.png'
 import catanGeneratorTwo from '../../images/catanGeneratorTwo.png'
 import restaurant from '../../images/restaurant.png'
@@ -10,7 +10,8 @@ import bootcampJournal from '../../images/bootcampJournal.png'
 
 export function Projects({ display }) {
     return (
-        <div className={`w-100% ${display} 
+        <div className={`w-100% ${display} bg-lightBlue min-h-76vh
+        ltp:min-h-100vh 
         wide:pl-30rem
         4k:pl-39rem`}>
             <div className="w-full px-8 flex flex-col items-center justify-evenly

@@ -17,7 +17,7 @@ function App() {
         wide:w-100% wide:ml-0'>
         <Routes>
           <Route
-            path='/'
+            path='portfolioJonathanMaxim/'
             element={<Projects />}
           />
           <Route

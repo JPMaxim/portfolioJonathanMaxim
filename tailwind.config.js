@@ -36,6 +36,7 @@ module.exports = {
         '39rem': '39rem',
         '50rem': '50rem',
         '1px': '1px',
+        '2px': '2px',
         '3px': '3px',
         '5px': '5px',
         '8px': '8px',
@@ -51,6 +52,8 @@ module.exports = {
         'teal-paled': 'rgb(71, 128, 128)',
         'gold': '#E6BB18',
         'lightBlue': '#B2D8D8',
+        'lightMagenta': 'rgb(252, 161, 253)',
+        'lighterMagenta': 'rgb(252, 216, 239)',
         'grey': '#E5E4E2'
       },
       boxShadow: {
@@ -60,7 +63,8 @@ module.exports = {
         'spineCreaseSkyMagentaRight': '-1px 0 8px rgb(110, 82, 94), 8px 0 8px rgb(110, 82, 94)',
         'spineCreaseTealLeft': '-8px 0 8px rgb(0, 63, 63), 1px 0 8px rgb(0, 63, 63)',
         'spineCreaseTealRight': '-1px 0 8px rgb(37, 66, 66), 8px 0 8px rgb(37, 66, 66)',
-        'cardShadow': '-5px -5px rgb(71, 128, 128)',
+        'projCardShadow': '-5px -5px rgb(71, 128, 128)',
+        'jrnCardShadow': '-5px -5px rgb(159, 90, 136)',
         'readMore': '1px 1px ',
       },
       borderWidth: {

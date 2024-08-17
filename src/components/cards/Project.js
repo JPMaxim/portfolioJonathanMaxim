@@ -34,7 +34,7 @@ export function Project({title, caption, button, captionExpanded, img, link}) {
     if (button == null) { buttonTailwind = 'hidden' }
         // flex flex-col justify-evenly items-center
     return (
-        <div className="z-10 relative w-100% wide:w-75% min-h-30rem p-20px mb-3rem bg-white rounded shadow-cardShadow flex justify-center">
+        <div className="z-10 relative w-100% wide:w-75% min-h-30rem p-20px mb-3rem bg-white rounded shadow-projCardShadow flex justify-center">
 
             {/* <div className="z-20 absolute bottom-0 left-0 rounded-b w-0 h-0 border-t-15rem border-t-transparent border-b-15rem border-b-black border-l-15rem border-l-transparent border-r-15rem border-r-transparent bg-transparent "></div>  */}
 
