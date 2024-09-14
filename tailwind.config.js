@@ -54,7 +54,8 @@ module.exports = {
         'lightBlue': '#B2D8D8',
         'lightMagenta': 'rgb(252, 161, 253)',
         'lighterMagenta': 'rgb(252, 216, 239)',
-        'grey': '#E5E4E2'
+        'grey': '#E5E4E2',
+        'linkColour': '#FF0000'
       },
       boxShadow: {
         'spineCreaseDarkMagentaLeft': '-8px 0 8px rgb(45, 7, 46), 1px 0 8px rgb(45, 7, 46)',

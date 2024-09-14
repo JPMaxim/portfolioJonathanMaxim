@@ -2,6 +2,7 @@ import {JournalEntry} from '../cards/JournalEntry'
 import { ChessStats01 } from '../text/journalCaptions/august24/ChessStats01'
 import { ChessStats02 } from '../text/journalCaptions/august24/ChessStats02'
 import { ChessStats03 } from '../text/journalCaptions/august24/ChessStats03'
+import { PythonListComprehension } from '../text/journalCaptions/sept24/PythonListComprehension'
 
 export function Journal({ display }) {
     return (
@@ -14,6 +15,12 @@ export function Journal({ display }) {
             wide:px-32
             4k:px-80">
                 <h1 className="font-Chakra my-3rem text-5xl wide:text-6xl 4k:text-7xl">Journal</h1>
+                <JournalEntry 
+                    title='Python Practice'
+                    subtitle='List Comprehenstion'
+                    caption={<PythonListComprehension />}
+                    date='September 2024'
+                />
                 <JournalEntry 
                     title='Chess Stats FullStack - Entry 01'
                     subtitle='Design And Bulding the Backend Server'

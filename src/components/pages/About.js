@@ -1,4 +1,4 @@
-export function Bootcamp({ display }) {
+export function About({ display }) {
     return (
         <div className={`w-100% ${display} bg-lightMagenta min-h-76vh
         ltp:min-h-100vh
@@ -11,7 +11,7 @@ export function Bootcamp({ display }) {
                 ltp:px-16
                 wide:px-32
                 4k:px-80">
-                    <h1 className="font-Chakra my-3rem text-5xl wide:text-6xl 4k:text-7xl">Bootcamp</h1>
+                    <h1 className="font-Chakra my-3rem text-5xl wide:text-6xl 4k:text-7xl">About Me</h1>
                 </div>
             </div>
         </div>

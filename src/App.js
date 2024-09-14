@@ -1,7 +1,7 @@
 import './App.css';
 import { Projects } from './components/pages/Projects.js';
 import { Journal } from './components/pages/Journal.js';
-import { Bootcamp } from './components/pages/Bootcamp.js';
+import { About } from './components/pages/About.js';
 import { Nav } from './components/nav/Nav.js';
 import { useState, useEffect } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
@@ -29,8 +29,8 @@ function App() {
             element={<Journal />}
           />
           <Route
-            path='/bootcamp'
-            element={<Bootcamp />}
+            path='/about'
+            element={<About />}
           />
         </Routes>
       </div>
