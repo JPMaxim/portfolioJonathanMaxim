@@ -1,14 +1,15 @@
 import j from '../../images/j.png'
 import ornamental from '../../images/ornamental-symmetrical-design.png'
 import { Link } from 'react-router-dom'
-export function Book({ name, position, id, colour, colourPaled, shadow, shadowPaled, handleClick }) {
+export function Book({ name, position, id, colour, colourPaled, shadow, shadowPaled, handleClick}) {
     let href = '/' + name.toLowerCase()
     return (
         <Link to={href}>
-            <div onClick={() => handleClick(name)} id={id} className={`absolute ${position} flex flex-col justify-evenly w-100% h-8vh font-Chakra
+            {/* <div onClick={() => handleClick(name)} id={id} className={`relative flex flex-col justify-evenly w-100% h-8vh font-Chakra
                 ltp:flex-row ltp:w-2/6 ltp:h-100%
                 wide:w-40
-                4k:w-52`}>
+                4k:w-52`}> */}
+            <div onClick={() => handleClick(name)} id={id} className={`relative flex flex-col justify-evenly w-100% h-8vh font-Chakra lg:flex-row lg:h-100%`}>
                 <div className={`absolute top-3px ltp:top-0 ltp:left-8px h-4% ltp:h-full w-100% ltp:w-4% ${colour} ${shadow}`}></div>
 
                 <div className='h-70% w-100% ltp:h-100% ltp:w-70% flex flex-nowrap ltp:flex-col items-center justify-evenly'>
