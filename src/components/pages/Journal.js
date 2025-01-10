@@ -8,6 +8,7 @@ import { CsharpIntro } from '../text/journalCaptions/nov24/CsharpIntro'
 import { CwBilliards } from '../text/journalCaptions/dec24/CwBilliards'
 import { CwSwitchOverRange } from '../text/journalCaptions/dec24/CwSwitchOverRange'
 import { OrderByHeight } from '../text/journalCaptions/dec24/OrderByHeight'
+import { RegEx } from '../text/journalCaptions/jan25/RegEx'
 import sdhOldArr from '../../images/sbhOldArr.png'
 import sdhNewArr from '../../images/sbhNewArr.png'
 import sdhNewMap from '../../images/sbhNewMap.png'
@@ -49,7 +50,7 @@ export function Journal({ display }) {
                         <div className={`h-100% text-center flex justify-center items-center  transition hover:scale-105 duration-400 ${((3 == activeNav) ? 'shadow-active' : '')}`}>CREATING</div>
                     </div>
                 </div>
-                {/* Codewars Widget */}
+                {/* Codewars Widget 
                 <div id='codewars' className={`${(2 == activeNav) ? 'z-10 relative w-100% wide:w-75% h-10rem p-10px mb-3rem border-2 border-black rounded' : 'hidden'}`}>
                     <div className='w-full h-25% flex'>
                         <div onClick={() => setLanguage(0)} className={`font-rokkitt w-1/3 flex flex-col justify-center items-center hover:font-medium`}>
@@ -71,9 +72,17 @@ export function Journal({ display }) {
                         <div className='bg-grey w-80% h-50%'></div>
                     </div>
                 </div>
+                */}
                 {/* entries */} 
                 <div className='flex max-w-100% flex-wrap'>
                     {/* MOST RECENT - TOP TO BOTTOM */}
+                    <JournalEntry
+                        title='Using Mozilla and ChatGPT to learn and improve'
+                        subtitle='Regular Expressions'
+                        caption={<RegEx />}
+                        active={(activeNav == 0 || activeNav == 1) ? true : false}
+                        date='January 2025'
+                    />
                     <JournalEntry
                         title='Codewars - Javascript'
                         subtitle='Using Array Methods Better'
